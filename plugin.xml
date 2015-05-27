@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="it.lcaprini.cordova.plugins.unlocksdetector" version="0.0.2">
+    <name>Jailbreak-Rooting Detector</name>
+    <author>Luca Caprini (https://github.com/lcaprini)</author>
+    <description>Cordova Plugin for detecting if the device running the app is jailbroken or rooted</description>
+    <keywords>cordova, jailbreak, jailbroken, root, rooted, rooting, cydia, detection, detector</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    <js-module src="www/unlocksDetector.js" name="UnlocksDetector">
+        <clobbers target="unlocksDetector" />
+    </js-module>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="UnlocksDetector">
+              <param name="android-package" value="it.lcaprini.cordova.plugins.UnlocksDetector" />
+              <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/UnlocksDetector.java" target-dir="src/it/lcaprini/cordova/plugins" />
+        <source-file src="src/android/Root.java" target-dir="src/it/lcaprini/cordova/plugins" />
+        <source-file src="src/android/ExecShell.java" target-dir="src/it/lcaprini/cordova/plugins" />
+    </platform>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="UnlocksDetector">
+                <param name="ios-package" value="UnlocksDetector" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/UnlocksDetector.h" />
+        <source-file src="src/ios/UnlocksDetector.m" />
+    </platform>
+</plugin>
