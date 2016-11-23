@@ -5,7 +5,7 @@
 ### Locally
 
 ```
-cordova plugin add https://github.com/lcaprini/cordova-plugin-unlocks-detector.git
+cordova plugin add https://github.com/lcaprini/it.lcaprini.cordova.plugins.unlocksdetector.git
 ```
 
 This Cordova plugin architecture will add a new object called `unlocksDetector` to your root automatically when you build.
