@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="it.lcaprini.cordova.plugins.unlocksdetector" version="0.1.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="it.lcaprini.cordova.plugins.unlocksdetector" version="0.2.0">
     <name>Jailbreak-Rooting Detector</name>
     <author>Luca Caprini (https://github.com/lcaprini)</author>
     <description>Cordova Plugin for detecting if the device running the app is jailbroken or rooted</description>
