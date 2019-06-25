@@ -1,0 +1,20 @@
+{
+  "authors": "Luca Caprini <luca.caprini@eng.it>",
+  "definitionFilename": "index.d.ts",
+  "libraryDependencies": [],
+  "moduleDependencies": [],
+  "libraryMajorVersion": "0",
+  "libraryMinorVersion": "0",
+  "libraryName": "UnlocksDetector",
+  "typingsPackageName": "unlocksdetector",
+  "projectName": "",
+  "sourceRepoURL": "",
+  "kind": "Mixed",
+  "globals": [],
+  "declaredModules": [
+    "unlocksdetector"
+  ],
+  "files": [
+    "index.d.ts"
+  ]
+}

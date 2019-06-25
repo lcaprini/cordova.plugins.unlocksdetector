@@ -6,8 +6,9 @@
  * This plugin defines a global device object, which exposes two methods to detect if device is Jailbroken or Rooted
  * Although the object is in the global scope, it is not available until after the deviceready event.
  */
-interface UnlocksDetector {
-    
+// eslint-disable-next-line @typescript-eslint/class-name-casing
+interface unlocksDetector {
+
     /**
      * Inspired from Lee Crossley's cordova-plugin-jailbreak-detection plugin (https://github.com/leecrossley/cordova-plugin-jailbreak-detection)
      * @param  {(isJailbroken:boolean)=>void} success?
@@ -15,7 +16,7 @@ interface UnlocksDetector {
      * @returns void
      */
     isJailbroken(onSuccess?: (isJailbroken: boolean)  => void, onError?: (error: any)  => void): void;
-    
+
     /**
      * Inspired from Jimmy Liao's cordova-plugin-device-detection plugin (https://github.com/jimmyliao/cordova-plugin-device-detection)
      * @param  {(isRooted:boolean)=>void} success?
@@ -25,4 +26,6 @@ interface UnlocksDetector {
     isRooted(onSuccess?: (isRooted: boolean)  => void, onError?: (error: any)  => void): void;
 }
 
-declare var device: UnlocksDetector;
+declare module 'unlocksdetector' {
+    export = unlocksDetector;
+}

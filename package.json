@@ -30,5 +30,8 @@
   },
   "author": "Luca Caprini",
   "license": "ISC",
+  "devDependencies": {
+    "@types/unlocksdetector": "file:./types"
+  },
   "homepage": "https://github.com/lcaprini/it.lcaprini.cordova.plugins.unlocksdetector#readme"
 }
