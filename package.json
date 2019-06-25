@@ -26,12 +26,10 @@
     "cordova-ios"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm i ./types"
   },
   "author": "Luca Caprini",
   "license": "ISC",
-  "devDependencies": {
-    "@types/unlocksdetector": "file:./types"
-  },
   "homepage": "https://github.com/lcaprini/it.lcaprini.cordova.plugins.unlocksdetector#readme"
 }
