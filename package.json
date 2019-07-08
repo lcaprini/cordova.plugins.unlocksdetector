@@ -1,10 +1,10 @@
 {
-  "name": "it.lcaprini.cordova.plugins.unlocksdetector",
-  "version": "0.2.1",
+  "name": "cordova.plugins.unlocksdetector",
+  "version": "0.2.2",
   "description": "Jailbroken/Rooted Device Detector Plugin for Apache Cordova",
   "types": "./types/index.d.ts",
   "cordova": {
-    "id": "it.lcaprini.cordova.plugins.unlocksdetector",
+    "id": "cordova.plugins.unlocksdetector",
     "platforms": [
       "android",
       "ios"
@@ -26,8 +26,7 @@
     "cordova-ios"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm i ./types"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Luca Caprini",
   "license": "ISC",

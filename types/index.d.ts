@@ -1,4 +1,4 @@
-// Type definitions for it.lcaprini.cordova.plugins.unlocksdetector 0.2.1
+// Type definitions for it.lcaprini.cordova.plugins.unlocksdetector 0.2.2
 // Project: https://github.com/lcaprini/it.lcaprini.cordova.plugins.unlocksdetector
 // Definitions by: Luca Caprini <https://github.com/lcaprini>
 
