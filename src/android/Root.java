@@ -1,7 +1,7 @@
-package it.lcaprini.cordova.plugins;
+package cordova.plugins;
 
 import java.io.File;
-import it.lcaprini.cordova.plugins.ExecShell.SHELL_CMD;
+import cordova.plugins.ExecShell.SHELL_CMD;
 
 /** @author Kevin Kowalewski */
 /** @author Jimmy Liao */

@@ -1,4 +1,4 @@
-package it.lcaprini.cordova.plugins;
+package cordova.plugins;
 
 import android.app.Activity;
 import android.content.*;

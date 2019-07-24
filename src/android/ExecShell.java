@@ -1,4 +1,4 @@
-package it.lcaprini.cordova.plugins;
+package cordova.plugins;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

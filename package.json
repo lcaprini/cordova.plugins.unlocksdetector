@@ -1,6 +1,6 @@
 {
   "name": "cordova.plugins.unlocksdetector",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Jailbroken/Rooted Device Detector Plugin for Apache Cordova",
   "types": "./types/index.d.ts",
   "cordova": {
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lcaprini/it.lcaprini.cordova.plugins.unlocksdetector"
+    "url": "https://github.com/lcaprini/cordova.plugins.unlocksdetector"
   },
   "bugs": {
-    "url": "https://github.com/lcaprini/it.lcaprini.cordova.plugins.unlocksdetector/issues"
+    "url": "https://github.com/lcaprini/cordova.plugins.unlocksdetector/issues"
   },
   "keywords": [
     "cordova",
@@ -30,5 +30,5 @@
   },
   "author": "Luca Caprini",
   "license": "ISC",
-  "homepage": "https://github.com/lcaprini/it.lcaprini.cordova.plugins.unlocksdetector#readme"
+  "homepage": "https://github.com/lcaprini/cordova.plugins.unlocksdetector#readme"
 }
